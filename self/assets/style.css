@@ -1,0 +1,497 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	color: #505962;
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("img/17.jpg");
+  background-size: cover; 
+  /* background-size的cover特定值会保持图像本身的宽高比例，
+  将图片缩放到正好完全覆盖定义背景的区域 */
+  background-position: center;
+  background-attachment: fixed; 
+  /*background-attachment是背景固定模式的屬性，而不同的固定方式就能夠有不同的視覺效果，
+  而人類的視覺是很容易欺騙的，適當的利用可以有意想不到的效果,fixed模式，不管外面、
+  裡面怎麼滾，他都是不會動的。*/
+  overflow:auto; 
+}
+/*----------------- header -----------------*/
+.navbar
+{
+
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: .1rem;
+	background: rgba(0, 0, 0, 0.6)!important;
+
+}
+
+.navbar-brand img
+{
+	height: 70px;
+	width: 250px;  /* 寬度 */
+	margin-left: 70px; /* 左邊距 */
+}
+
+.navbar-nav li
+{
+	padding-right: 15px;
+	padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover
+{
+	background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transform: scale(0.9);
+}
+
+.navbar-nav li
+{
+	display: inline-block;
+}
+
+.navbar-nav li.activ a
+{
+	border: 1px solid white;
+}
+
+.navbar-nav li a:hover
+{
+	border: 1px solid white;
+}
+/*------------------- End header-------------------*/
+
+
+/*------------------- start aboutme------------------*/
+#about
+{
+  margin: 150px auto; 
+  background-color:#fff;
+  background-color:rgba(255,255,255,0.2);
+  overflow: hidden;
+  width:80%;
+  min-width:1280px;
+
+}
+
+#about img
+{
+  width: 100%;
+  padding: 45px;
+  overflow: hidden;
+
+}
+
+div .aboutme-photo
+{
+  float: left;
+  overflow: hidden;
+  width: 40%;
+  border-right-style: solid;
+
+}
+
+
+div .aboutme_content{
+  padding: 125px 45px 45px 70px;
+  color: #fff;
+  overflow: hidden;
+  word-break:keep-all;           /* 不换行 */
+  white-space:nowrap;          /* 不换行 */
+  overflow:hidden;               /* 内容超出宽度时隐藏超出部分的内容 */
+  text-overflow:ellipsis;         /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+
+.aboutme_content h1
+{
+  font-family: 'Righteous', cursive;
+}
+
+.aboutme_content p
+{
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 20px;
+}
+/*----------------------- end aboutme------------------------*/
+
+
+/*---------------------- start Interests-------------------*/
+
+#Interests{
+  margin-top: -125px ; 
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#00BFFF;
+  background: rgba(0, 100, 100, 0.5);
+  overflow: hidden;
+  width:80%;
+  min-width:1280px;
+}
+.interests{
+  width: 70%;
+  height: 200px;
+  margin:0 auto;
+  text-align: left;
+  border-radius: 30px;
+}
+.interests-wort{
+  position: absolute;
+  font-size: 50px;
+  margin-left:-30px;
+  margin-top: -30px;
+  font-family: 'Righteous', cursive;
+  color: #fff;
+}
+
+.interests-2{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 25px;
+}
+.interests-icon{
+  width: 130px;
+  height: 130px;
+  display: inline-block;
+  border-radius: 100px;
+  cursor: pointer;
+  background-color: #fff;
+  background-color:rgba(255,255,255,0.2);
+  box-shadow:3px 3px 5px 6px #000;
+
+}
+
+.interests-icon img{
+  width: 100%;
+}
+.interests-icon-margin{
+  margin-left: 60px;
+}
+#Interests p{
+  display:none;
+}
+#Interests div:hover .interests-wort2{ 
+  width: 130px;
+  height: 130px;
+  background-color: #fff;
+  background: rgba(0, 100, 100, 0.5);
+  display:block;
+  padding: 40px;
+  margin-top: -128px;
+  z-index: 1;
+  font:bold 12px arial;
+  position:relative;
+  border-radius: 100px;
+  color: #fff;
+}
+
+/*---------------------- end Interests-------------------*/
+
+/*---------------------- start education-------------------*/
+#education{
+  margin-top: 50px ; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  background-color:#00BFFF;
+  background: rgba(0, 100, 100, 0.5);
+  overflow: hidden;
+  width:80%;
+  min-width:1280px;
+  cursor: pointer;
+}
+.education-wort{
+  position: absolute;
+  font-size: 50px;
+  margin-left: 80px;
+  margin-top: -130px;
+  font-family: 'Righteous', cursive;
+  color: #fff;
+}
+#education div.oll{
+  padding: 100px 100px 180px 100px;
+  min-width: 1200px;
+}
+
+ol {/*中間的線*/
+  position: relative;
+  display: block;
+  margin: 80px;
+  max-width:auto; 
+  height: 4px;
+  background: linear-gradient(to right,#1779ff,#0c002b 80%);
+  box-shadow:3px 3px 5px 6px #000;
+  /*animation: animate1 2s linear infinite;*/
+}
+/*@keyframes animate1
+{
+  0%
+  {
+    transform: translateX(-100%);
+  }
+  100%
+  {
+    transform: translateX(100%);
+  }
+}*/
+
+#education li {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 150px;
+  font: bold 15px arial;
+  height: 50px;
+  transition: 0.5s;
+}
+
+#education li .diplome { 
+  position: absolute;
+  top: -60px;
+  left: 250%;
+  color: #fff;
+}
+#education p.name{ /*中學名字*/
+  position: absolute;
+  top: 5px;
+  left: 250%;
+  color: #fff;
+}
+#education li .point { /*中間的小點*/
+  content: "";
+  top: -21px;
+  left: 270%;
+  display: block;
+  width: 6px;
+  height: 6px;
+  border: 4px solid #fff;
+  border-radius: 10px;
+  background: #fff;
+  position: absolute;
+}
+#education li .description { /*描述學習經歷*/
+  display: none;
+  left: 240%;
+  background-color: #f4f4f4;
+  padding: 10px;  
+  position: relative;
+  font-weight: normal;
+  z-index: 1;
+  border-radius: 25px;
+  font:bold 12px arial;
+}
+
+#education li:hover .description {
+  display: block;
+}
+#education p.name,p.diplome{
+  text-align: center;
+  color:rgb(73%,73%,72%);
+}
+/*---------------------- end education-------------------*/
+
+/*---------------------- start Contact-------------------*/
+#Contact{ 
+  width:177px; 
+  height:100px;
+  text-align:left;
+  color:#fff;
+  /*position:absolute;*/
+  position:fixed;
+  right:15px; 
+  top:20%;
+  cursor:pointer;
+  z-index: 9999;
+}
+
+.card div{
+  z-index:999;
+  display: block;
+  position: fixed; 
+  left: 0px; 
+  top: 200px;
+}
+#Contact div{
+  background-color:#00BFFF;
+  background: rgba(0, 100, 100, 0.5);
+  box-shadow:3px 3px 5px 6px #000;
+}
+.card .Name{
+  margin-top: -20px;
+  font-weight: bold;
+}
+.card .Phone{
+  font-weight: bold;
+}
+.card .Email{
+  font-weight: bold;
+}
+.card .Address{
+  font-weight: bold;
+}
+/* 上下 */
+.card .name{
+  font-size: 14px;
+  margin-top: -20px;
+}
+
+.card .phone{
+  font-size: 14px;
+  margin-top: -20px;
+}
+
+.card .email{
+  font-size: 14px;
+  margin-top: -20px;
+}
+.card .address{
+  font-size: 14px;
+  margin-top: -20px;
+}
+/*---------------------- end Contact-------------------*/
+
+/*---------------------- start Goal-------------------*/
+#Goal{
+  margin-top: 0px ;
+  margin-bottom: 50px; 
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#00BFFF;
+  background: rgba(0, 100, 100, 0.5);
+  overflow: hidden;
+  width:80%;
+  min-width:1280px;
+}
+
+.goal-wort{
+  position: absolute;
+  font-size: 50px;
+  margin-left: 180px;
+  margin-top: -40px;
+  font-family: 'Righteous', cursive;
+  color: #fff;
+}
+
+#Goal .encourage{
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#Goal .czz{
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#Goal .wort{
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  font-weight: bold;
+}
+/*---------------------- end Goal-------------------*/
+
+/*---------------------- start life-------------------*/
+.text-uppercase{
+  color: #fff;
+  font-family: 'Righteous', cursive;
+}
+
+#life .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+/*---------------------- end life-------------------*/
+
+/*---------------------- start icons-------------------*/
+#ic .icons
+{
+  /*border: 2px solid black;*/
+  position: fixed;
+  top: 30%;
+  left: 0%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  z-index: 9999; 
+}
+
+#ic .icons a 
+{
+
+  text-decoration: none; 
+  padding: 10px;
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+  margin: 5%;
+  text-align: right;
+  border-radius: 0px 50px 50px 0px;
+  transform: translate(-140px,0px);
+  transition: all 0.5s;
+}
+#ic .icons a:hover
+{
+  transform: translate(0px,0px);
+}
+
+.facebook
+{
+  background: rgba(200, 200, 250, 0.5);
+  color: #fff;
+}
+
+.instagram
+{
+  background: rgba(600, 200, 250, 0.5);
+  color: #fff;
+}
+
+.github
+{
+  background: rgba(600, 600, 250, 0.5);
+  color: #fff;
+}
+/*---------------------- end icons-------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
