@@ -181,6 +181,7 @@ div .aboutme_content{
   width: 130px;
   height: 130px;
   background-color: #fff;
+  background: rgba(0, 100, 100, 0.5);
   display:block;
   padding: 40px;
   margin-top: -128px;
