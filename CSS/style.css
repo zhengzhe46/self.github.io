@@ -463,7 +463,25 @@ ol {/*中間的線*/
 }
 /*---------------------- end icons-------------------*/
 
+/*---------------------- end footer-------------------*/
+.footer{
+  margin-top: -125px ; 
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#00BFFF;
+  background: rgba(0, 100, 100, 0.5);
+  overflow: hidden;
+  width:80%;
+  min-width:1280px;
+  overflow: hidden;
+  color: #FFFFFF;
+  text-align: center;
+}
+.FW{
+  margin-top: 50px;
+}
 
+/*---------------------- end footer-------------------*/
 
 
 
