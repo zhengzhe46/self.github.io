@@ -128,7 +128,8 @@ div .aboutme_content{
   margin-top: -125px ; 
   margin-left: auto;
   margin-right: auto;
-  background: rgba(0, 105, 100, 0.5);
+  background-color:#00BFFF;
+  background: rgba(0, 100, 100, 0.5);
   overflow: hidden;
   width:80%;
   min-width:1280px;
@@ -200,7 +201,8 @@ div .aboutme_content{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
-  background: rgba(100, 100, 100, 0.5);
+  background-color:#00BFFF;
+  background: rgba(0, 100, 100, 0.5);
   overflow: hidden;
   width:80%;
   min-width:1280px;
@@ -361,7 +363,7 @@ ol {/*中間的線*/
   margin-bottom: 50px; 
   margin-left: auto;
   margin-right: auto;
-  background: rgba(100, 100, 100, 05);
+  background: rgba(0, 100, 100, 0.5);
   overflow: hidden;
   width:80%;
   min-width:1280px;
