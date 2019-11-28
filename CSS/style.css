@@ -128,7 +128,7 @@ div .aboutme_content{
   margin-top: -125px ; 
   margin-left: auto;
   margin-right: auto;
-  background: rgba(150, 115, 100, 0.5);
+  background: rgba(100, 100, 100, 0.5);
   overflow: hidden;
   width:80%;
   min-width:1280px;
@@ -181,7 +181,6 @@ div .aboutme_content{
   width: 130px;
   height: 130px;
   background-color: #fff;
-  background: rgba(0, 100, 100, 0.5);
   display:block;
   padding: 40px;
   margin-top: -128px;
